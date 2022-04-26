@@ -6,7 +6,7 @@ When - actions we need to perform
 And - supporting tags
 Then - expected results
 
----Recap---
+---Recap--- 4/25/22
 What is a framework?
 --it is an organized structure of folders and packages which allows us to write clean and maintainable code
 
@@ -52,7 +52,8 @@ And clicks on search button
 Then user is able to see employee information
 And user enters valid password credentials
 
-
+file where we write BDD scenarios is feature file
+this file has .feature extension
 
 
 
