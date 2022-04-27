@@ -6,7 +6,8 @@ When - actions we need to perform
 And - supporting tags
 Then - expected results
 
----Recap--- 4/25/22
+---Class02--- 4/25/22
+Recap-
 What is a framework?
 --it is an organized structure of folders and packages which allows us to write clean and maintainable code
 
@@ -54,6 +55,60 @@ And user enters valid password credentials
 
 file where we write BDD scenarios is feature file
 this file has .feature extension
+
+---Class03--- 4/26/22
+Recap -
+We use feature file to write our scenarios
+-- search employee by id
+-- search employee by name
+In feature file we write scenarios using Gherkin language
+--Given
+--When
+--And
+--Then
+--scenario
+--feature
+
+after feature file, we need to create step definitions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
