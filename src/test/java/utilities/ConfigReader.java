@@ -1,12 +1,12 @@
 package utilities;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigReader {
-
     static Properties prop;
 
     //this method will read any property file
@@ -27,9 +27,5 @@ public class ConfigReader {
     public static String getPropertyValue(String key){
         return prop.getProperty(key);
     }
-
-
-
-
 
 }

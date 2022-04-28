@@ -5,7 +5,7 @@ Given - pre-condition
 When - actions we need to perform
 And - supporting tags
 Then - expected results
-
+===========================================================
 ---Class02--- 4/25/22
 Recap-
 What is a framework?
@@ -55,7 +55,7 @@ And user enters valid password credentials
 
 file where we write BDD scenarios is feature file
 this file has .feature extension
-
+===========================================================
 ---Class03--- 4/26/22
 Recap -
 We use feature file to write our scenarios
@@ -70,8 +70,18 @@ In feature file we write scenarios using Gherkin language
 --feature
 
 after feature file, we need to create step definitions
+===========================================================
+---Class 04--- 4/27/22
+Recap -
+Common Methods class in our framework is used to write all the
+methods we will be using in majority scenarios (code reusability)
 
+sendText method, click, etc
 
+In constant class we provide IMPLICIT_WAIT, EXPLICIT_WAIT values and test data path
+
+(POM) Page Object Model is a design pattern
+According to the page object model(POM), we create pages classes for all the screens available in the application
 
 
 
