@@ -9,6 +9,7 @@ import java.sql.Driver;
 
 public class LoginPage extends CommonMethods {
 
+    //object repository
     @FindBy(id="txtUsername")
     public WebElement usernameBox;
 
