@@ -119,9 +119,30 @@ We always create hooks class in steps package
 Background vs Hooks:
 background - it is applicable to one feature files
 hooks - it is applicable to all the feature files
+--------------------------------------------------------------------------------------------------------
+Class 7
 
+-Recap
+-- hooks - to write pre-conditions and post conditions of the project, we use hooks.
+@before and @after - 2 types of hooks we have in Cucumber
+We always write hooks under steps packages
 
+Data Drive Testing (DDT)--
+-- using examples, tables and scenario outline
+-- using data table
+---------------------------------------------------------------------------------------------------------
 
+Class 8-9
+--------------------
+maven surefire plugin
+
+to clean the project - mvn clean from cmd/terminal
+to run the project - mvn test from cmd/terminal
+override the tags from cmd - mvn clean verify -Dcucumber.filter.tags="@later
+
+mvn clean - it cleans your target folder
+mvn test - to execute our test cases
+verify - convert your code to packages
 
 
 
